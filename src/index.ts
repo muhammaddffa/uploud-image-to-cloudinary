@@ -65,10 +65,6 @@ app.post(
 //   }
 // );
 
-// CLOUDINARY_CLOUD_NAME=dbbzu2sxo
-// CLOUDINARY_API_KEY=378976613568169
-// CLOUDINARY_API_SECRET=v6JbYtQt3mjaQ4ltznQG3D22wKQ
-
 app.get("/", (req, res) => {
   res.json("Api is working awesome");
 });
